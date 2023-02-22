@@ -1,0 +1,122 @@
+
+html{
+    background-color: #111111;
+    font-family: "inter";
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    padding:20px;
+    color:#808080;
+    background-color: black;
+}
+ 
+nav{
+    padding: 15px;
+    border:1px solid #808080;
+    color: #808080;
+    border-radius: 10px;
+    
+    
+}
+.card{
+    border:1px solid #808080;
+    padding:15px;
+    border-radius: 10px;
+    /* height: 20px; */
+    /* width: 20px; */
+}
+
+.container{
+    display: flex;
+    flex-flow: row wrap;
+    /* border:2px solid red; */
+    margin-top: 20px;
+    gap:20px;
+
+}
+.left-container{
+    width: 25%;
+    display: flex;
+    flex-flow: column wrap;
+    gap:20px;
+}
+.profile-img{
+    width: 30%;
+    border-radius: 50%;
+}
+.right-container{
+    width:945px;
+    border:1px solid #808080;
+     /* padding:75px; */
+     display:flex;
+     flex-flow: column wrap;
+
+}
+.item1{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+.item2{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top:10px;
+}
+.item3>div{
+display:flex;
+flex-flow: row wrap;
+align-items: center;
+gap: 10px;
+margin-top: 10px;
+
+}
+.item3 img{
+    width: 30px;
+    height:30px;
+}
+table{
+    border: 1px solid #808080;
+    width:97%;
+    margin-top: 10px;
+    /* height:80%; */
+    flex-grow:1;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-right:5px;
+    border-spacing: 0;
+    
+}
+thead{
+    border: 2px solid #808080;
+}
+td{
+    border-right: 1px solid #808080;
+    padding:4px;
+}
+table td:nth-child(3){
+    border-right: none;
+}
+thead td{
+    border-bottom: 1px solid #808080;
+}
+input{
+    display:none;
+}
+label{
+    display: inline-block;
+    width:15px;
+    height: 15px;
+    border:1px solid #808080;
+    border-radius: 4px;
+}
+input:checked+label{
+    background-color: #808080;
+}
